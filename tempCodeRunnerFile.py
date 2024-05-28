@@ -1,0 +1,5 @@
+plt.bar(data.index, data['Price'], color='skyblue', edgecolor='black')
+plt.xlabel('Product Index')
+plt.ylabel('Price')
+plt.title('Distribution of Product Prices')
+plt.show()
